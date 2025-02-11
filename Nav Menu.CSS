@@ -1,0 +1,33 @@
+        html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+font-family: system-ui;
+background: #21212a;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav {
+border-radius: 1.25rem;
+background-color: #111;
+padding: 1rem 1.5rem;
+display: flex;
+gap: 1rem;
+justify-content: center;
+flex-wrap: wrap;
+}
+a {
+padding: 0.5rem 1rem;
+color: white;
+text-decoration: none;
+position: relative;
+border-radius: 0.75rem;
+transition: background 0.3s ease, color 0.3s ease;
+}
+a.active {
+background: linear-gradient(to right, #6a11cb, #2575fc);
+color: white;
+}
+    
